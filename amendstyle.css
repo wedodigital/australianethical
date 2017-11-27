@@ -20,6 +20,6 @@
 	USE BY PAGE ID: 8387;
 	BLOCK: 2;
 ==================  */
-a { color: #2f9a41; }
-.row-block a:not(.button):hover { border-color: #2f9a41; }
+.table-wrap a { color: #2f9a41; }
+.row-block .table-wrap a:not(.button):hover { border-color: #2f9a41; }
 </style>

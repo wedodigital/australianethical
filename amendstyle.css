@@ -1,5 +1,13 @@
 <style>
 /* ======================
+	CUSTOMISATIONS - {NAME}
+	USE BY PAGE ID: {PAGE ID using this css style. Use comma to seperate multiple Page ID};
+	BLOCK: {Block number where the css code is been place. Use comma to seperate multiple number};
+==================  */
+</style>
+
+<style>
+/* ======================
 	CUSTOMISATIONS - Content Table
 	USE BY PAGE ID: 8382;
 	BLOCK: 17;
@@ -16,8 +24,15 @@
 
 <style>
 /* ======================
-	CUSTOMISATIONS - {NAME}
-	USE BY PAGE ID: {PAGE ID using this css style. Use comma to seperate multiple Page ID};
-	BLOCK: {Block number where the css code is been place. Use comma to seperate multiple number};
+	CUSTOMISATIONS - Nav links
+	USE BY PAGE ID: 8428
+	BLOCK: 8;
 ==================  */
+.navigation ul li.join.green a{
+    background: #2f9a41 !important;
+}
+.navigation ul li.join.green a:hover{
+    background: #35ae49 !important;
+}
 </style>
+

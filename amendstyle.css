@@ -16,8 +16,10 @@
 
 <style>
 /* ======================
-	CUSTOMISATIONS - {NAME}
-	USE BY PAGE ID: 8382;
-	BLOCK: 17;
+	CUSTOMISATIONS - Change a tag links color to green
+	USE BY PAGE ID: 8387;
+	BLOCK: 2;
 ==================  */
+a { color: #2f9a41; }
+.row-block a:not(.button):hover { border-color: #2f9a41; }
 </style>

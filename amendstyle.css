@@ -1,0 +1,16 @@
+<style>
+/* ======================
+	CUSTOMISATIONS - Content Table
+	REF: http://www.australianethical.com.au/wddd-managed-funds/;
+==================  */
+.content-table-wrapper { max-width: 100%; }
+.content-table-wrapper { margin-top: -30px; width: 100% !important; margin-bottom: 40px; }
+.content-table-wrapper thead th { background: #5b5b5c; padding: 10px; color: #fff; font-weight: 400; text-align: left;  letter-spacing: 0.02em;  border: 2px solid #fff; border-top: none; vertical-align: middle; }
+.content-table-wrapper tbody th { background: #92979b; padding: 8px 10px; color: #fff; text-align: left; font-size: 0.8em; border: 2px solid #fff; vertical-align: middle; width: 10%;   }
+.content-table-wrapper tbody th:nth-child(1) { width: 20%; background: #e6e7e8;  }
+.content-table-wrapper tbody th:nth-child(3) { width: auto !important;  }
+.content-table-wrapper tbody td { background: #e6e7e8; padding: 10px; color: #333; vertical-align: middle; border: 2px solid #fff;  }
+.content-table-wrapper tbody tr:nth-child(odd) td { background: #f1f1f2; }
+.content-table-wrapper tbody td strong { font-weight: 700; }
+.content-table-wrapper tbody td img { padding: 0 3px; }
+</style>

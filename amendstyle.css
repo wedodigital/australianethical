@@ -1,8 +1,8 @@
 <style>
 /* ======================
 	CUSTOMISATIONS - Content Table
-	USE BY PAGE ID: 8382;
-	BLOCK: 17;
+	USE BY PAGE ID: 8382, 8431, 8513, 8469, 8462, 8505;
+	BLOCK: 17, 3, 2, 3, 7, 6;
 ==================  */
 .content-table-wrapper { max-width: 100%; }
 .content-table-wrapper { margin-top: -30px; width: 100% !important; margin-bottom: 40px; }
@@ -17,8 +17,8 @@
 <style>
 /* ======================
 	CUSTOMISATIONS - Change a tag links color to green
-	USE BY PAGE ID: 8387, 8408;
-	BLOCK: 2, 2;
+	USE BY PAGE ID: 8387, 8408, 8498, 8502, 8513, 8522, 8532;
+	BLOCK: 2, 2, 2, 2, 2, 2, 2;
 ==================  */
 .row-block a { color: #2f9a41; }
 .row-block a:not(.button):hover { border-color: #2f9a41; }
@@ -27,9 +27,18 @@
 <style>
 /* ======================
 	CUSTOMISATIONS - Change gravityform submit button to green
-	USE BY PAGE ID: 8462;
-	BLOCK: 8;
+	USE BY PAGE ID: 8462, 8502, 8522;
+	BLOCK: 8, 2, 2;
 ==================  */
 .container .gform_wrapper input[type="submit"].gform_button { background: #2f9a41; }
-.container .gform_wrapper input[type="submit"].gform_button:hover { background: ##35AE49; }
+.container .gform_wrapper input[type="submit"].gform_button:hover { background: #35AE49; }
+</style>
+
+<style>
+/* ======================
+	CUSTOMISATIONS - Change Row People block header. to Green like H2
+	USE BY PAGE ID: 8524;
+	BLOCK: 6;
+==================  */
+.row-people .people-heading { color: #2f9a41; font-size: 3rem; font-weight: 700; line-height: 115% !important;}
 </style>

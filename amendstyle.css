@@ -23,3 +23,13 @@
 .row-block a { color: #2f9a41; }
 .row-block a:not(.button):hover { border-color: #2f9a41; }
 </style>
+
+<style>
+/* ======================
+	CUSTOMISATIONS - Change gravityform submit button to green
+	USE BY PAGE ID: 8462;
+	BLOCK: 8;
+==================  */
+.container .gform_wrapper input[type="submit"].gform_button { background: #2f9a41; }
+.container .gform_wrapper input[type="submit"].gform_button:hover { background: ##35AE49; }
+</style>

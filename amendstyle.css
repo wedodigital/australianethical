@@ -17,18 +17,19 @@
 <style>
 /* ======================
 	CUSTOMISATIONS - Change a tag links color to green
-	USE BY PAGE ID: 8387, 8408, 8498, 8502, 8513, 8522, 8532;
-	BLOCK: 2, 2, 2, 2, 2, 2, 2;
+	USE BY PAGE ID: 8387, 8408, 8498, 8502, 8513, 8522, 8532, 8581, 8583, 8585, 8592, 8594, 8596, 8598, 8601, 8603, 8605,
+			8608, 8610, 8612, 8615, 8619, 8621;
+	BLOCK: 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2;
 ==================  */
-.row-block a { color: #2f9a41; }
-.row-block a:not(.button):hover { border-color: #2f9a41; }
+.row-block a, .row-people a { color: #2f9a41; }
+.row-block a:not(.button):hover, .row-people a:not(.button):hover { border-color: #2f9a41; }
 </style>
 
 <style>
 /* ======================
 	CUSTOMISATIONS - Change gravityform submit button to green
-	USE BY PAGE ID: 8462, 8502, 8522;
-	BLOCK: 8, 2, 2;
+	USE BY PAGE ID: 8462, 8502, 8522, 8612, 8617;
+	BLOCK: 8, 2, 2, 2, 2;
 ==================  */
 .container .gform_wrapper input[type="submit"].gform_button { background: #2f9a41; }
 .container .gform_wrapper input[type="submit"].gform_button:hover { background: #35AE49; }

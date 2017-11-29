@@ -1,8 +1,8 @@
 <style>
 /* ======================
 	CUSTOMISATIONS - Content Table
-	USE BY PAGE ID: 8382, 8431, 8513, 8469, 8462, 8505;
-	BLOCK: 17, 3, 2, 3, 7, 6;
+	USE BY PAGE ID: 8382, 8431, 8513, 8469, 8462, 8505, 8635, 8741;
+	BLOCK: 17, 3, 2, 3, 7, 6, 2, 2;
 ==================  */
 .content-table-wrapper { max-width: 100%; }
 .content-table-wrapper { margin-top: -30px; width: 100% !important; margin-bottom: 40px; }
@@ -12,14 +12,18 @@
 .content-table-wrapper tbody tr:nth-child(odd) td { background: #f1f1f2; }
 .content-table-wrapper tbody td strong { font-weight: 700; }
 .content-table-wrapper tbody td img { padding: 0 3px; }
+
+.table-wrap tr:nth-child(odd) td { background: #f1f1f2 !important; }
+.table-wrap tr td { border: 2px white solid !important;background: #E6E7E8 !important; }
+.table-wrap th { background: #5B5B5C !important; color: white !important;}
 </style>
 
 <style>
 /* ======================
 	CUSTOMISATIONS - Change a tag links color to green
 	USE BY PAGE ID: 8387, 8408, 8498, 8502, 8513, 8522, 8532, 8581, 8583, 8585, 8592, 8594, 8596, 8598, 8601, 8603, 8605,
-			8608, 8610, 8612, 8615, 8619, 8621;
-	BLOCK: 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2;
+			8608, 8610, 8612, 8615, 8619, 8621, 8741;
+	BLOCK: 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2;
 ==================  */
 .row-block a, .row-people a { color: #2f9a41; }
 .row-block a:not(.button):hover, .row-people a:not(.button):hover { border-color: #2f9a41; }

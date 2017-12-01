@@ -1,17 +1,9 @@
 <style>
 /* ======================
 	CUSTOMISATIONS - Content Table
-	USE BY PAGE ID: 8382, 8431, 8513, 8469, 8462, 8505, 8635, 8741;
-	BLOCK: 17, 3, 2, 3, 7, 6, 2, 2;
+	USE BY PAGE ID: 8382, 8431, 8513, 8469, 8462, 8505, 8635, 8741, 8459;
+	BLOCK: 17, 3, 2, 3, 7, 6, 2, 2, 2;
 ==================  */
-.content-table-wrapper { max-width: 100%; }
-.content-table-wrapper { margin-top: -30px; width: 100% !important; margin-bottom: 40px; }
-.content-table-wrapper thead th { background: #5b5b5c; padding: 10px; color: #fff; font-weight: 400; text-align: left;  letter-spacing: 0.02em;  border: 2px solid #fff; border-top: none; vertical-align: middle; }
-.content-table-wrapper tbody th { background: #92979b; padding: 8px 10px; color: #fff; text-align: left; font-size: 0.8em; border: 2px solid #fff; vertical-align: middle; width: 10%;   }
-.content-table-wrapper tbody td { background: #e6e7e8; padding: 10px; color: #333; vertical-align: middle; border: 2px solid #fff;  }
-.content-table-wrapper tbody tr:nth-child(odd) td { background: #f1f1f2; }
-.content-table-wrapper tbody td strong { font-weight: 700; }
-.content-table-wrapper tbody td img { padding: 0 3px; }
 
 .table-wrap tr:nth-child(odd) td { background: #f1f1f2 !important; }
 .table-wrap tr td { border: 2px white solid !important;background: #E6E7E8 !important; }

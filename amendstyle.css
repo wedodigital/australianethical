@@ -39,3 +39,12 @@
 ==================  */
 .row-people .people-heading { color: #2f9a41; font-size: 3rem; font-weight: 700; line-height: 115% !important;}
 </style>
+
+<style>
+/* ======================
+	CUSTOMISATIONS - Fix overlapping anchors
+	USE BY PAGE ID: 8467;
+	BLOCK: 2;
+==================  */
+a.anchor { display: block; position: relative; top: -130px; visibility: hidden; }
+</style>

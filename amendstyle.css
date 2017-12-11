@@ -48,16 +48,3 @@
 ==================  */
 a.anchor { display: block; position: relative; top: -50px; visibility: hidden; }
 </style>
-
-<style>
-/* ======================
-	CUSTOMISATIONS - Custom 5 Column for icons ( can't use builder because can't divide 12 by 5 )
-	USE BY PAGE ID: 8467;
-	BLOCK: 2;
-==================  */
-.five-column-custom-container { display: inline-block; width: 18%; margin-right: 1%; text-align: center; }
-.five-column-custom-container a:hover { border: 0!important; text-decoration: none; }
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) { .five-column-custom-container { display: block; width: 100%; margin-right: 0; } }
-</style>

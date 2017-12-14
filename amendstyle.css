@@ -1,105 +1,106 @@
-<style>
+/* ======================
+buttons
+button-primary yellow - yellow button
+button-hollow - black button
+button-primary - blue
+button-primary green
+==================  */
+
+
 /* ======================
 	CUSTOMISATIONS - {NAME}
 	USE BY PAGE ID: {PAGE ID using this css style. Use comma to seperate multiple Page ID};
 	BLOCK: {Block number where the css code is been place. Use comma to seperate multiple number};
 ==================  */
-</style>
+<style></style>
 
-<style>
+
 /* ======================
-	CUSTOMISATIONS - Content Table
-	USE BY PAGE ID: 8382;
-	BLOCK: 17;
+	CUSTOMISATIONS - BUTTON BLOCK
+	USE BY PAGE ID: 8469;
+	BLOCK: 6;
 ==================  */
-.content-table-wrapper { max-width: 100%; }
-.content-table-wrapper { margin-top: -30px; width: 100% !important; margin-bottom: 40px; }
-.content-table-wrapper thead th { background: #5b5b5c; padding: 10px; color: #fff; font-weight: 400; text-align: left; border: 2px solid #fff; border-top: none; vertical-align: middle; }
-.content-table-wrapper tbody th { background: #92979b; padding: 8px 10px; color: #fff; text-align: left; font-size: 0.8em; border: 2px solid #fff; vertical-align: middle; width: 10%;   }
-.content-table-wrapper tbody td { background: #e6e7e8; padding: 10px; color: #333; vertical-align: middle; border: 2px solid #fff;  }
-.content-table-wrapper tbody tr:nth-child(odd) td { background: #f1f1f2; }
-.content-table-wrapper tbody td strong { font-weight: 700; }
-.content-table-wrapper tbody td img { padding: 0 3px; }
-</style>
+<style>@media screen and (min-width: 768px){.button-block { min-width: 333px;  display: inline-block;}}</style>
 
-<style>
+
+
 /* ======================
 	CUSTOMISATIONS - Nav links
 	USE BY PAGE ID: 8428
 	BLOCK: 8;
 ==================  */
-.navigation ul li.join.green a{
-    background: #2f9a41 !important;
-}
-.navigation ul li.join.green a:hover{
-    background: #35ae49 !important;
-}
-</style>
+<style>.navigation ul li.join.green a{background: #2f9a41 !important;}.navigation ul li.join.green a:hover{ background: #35ae49 !important;}</style>
 
-<style>
+
+
+
 /* ======================
-	CUSTOMISATIONS - Grid Block
-	USE BY PAGE ID: 8442
-	BLOCK: 1;
+	CUSTOMISATIONS - Inline Buttons
+	USE BY PAGE ID: 8455,8512
+	BLOCK: 2,2;
 ==================  */
-.grid-item-block{
-	width: 100%;
-    height: 251px;
-    float: left;
-    background: #fff;
-    margin-bottom: 10px;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-}
-.grid-item-block:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0,0,0, 0.5);
-    -moz-transition: background .3s linear;
-    -webkit-transition: background .3s linear;
-    -o-transition: background .3s linear;
-    transition: background .3s linear;
-    z-index: 1;
-}
-.grid-item-block .grid-item-overlay {
-    position: absolute;
-    min-height: 60px;
-    background: rgba(255,255,255,0.9);
-    padding: 10px;
-    bottom: -160px;
-    font-size: 12px;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    z-index: 3;
-}
-.grid-item-block:hover .grid-item-overlay{
-	bottom: 0;
-}
-.grid-item-block .grid-item-option{
-	background-size:cover;
-	background-position: center;
-	text-align: left;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    position: relative;
-}
-.grid-item-block .grid-item-option h3 {
-    font-weight: 400;
-    color: #fff;
-    width: 70%;
-    letter-spacing: 0.02em;
-    font-size: 1.1em;
-    line-height: 120%;
-    position: absolute;
-    bottom: 10px;
-    text-shadow: 2px 2px 2px #333;
-    z-index: 2;
-}
-</style>
+<style>.inline-buttons a{display: inline-block;}</style>
+
+
+/* ======================
+	CUSTOMISATIONS - Quote featured
+	USE BY PAGE ID: 8494,8570
+	BLOCK: 8,8;
+==================  */
+<style>blockquote.featured{padding: 45px;}</style>
+
+
+/* ======================
+	CUSTOMISATIONS - Counter
+	USE BY PAGE ID: 8535
+	BLOCK: 3;
+==================  */
+<style>ol li {font-size: 40px;line-height: 29px;margin-bottom: 35px;margin-left: 35px;}ol li span{font-size: 17.6px;}</style>
+
+
+/* ======================
+	CUSTOMISATIONS - sub menu
+	USE BY PAGE ID: 8543
+	BLOCK: 4;
+==================  */
+<style>nav.subpages ul.menu-secondary { border: none;border: 1px solid #f6f6f6; background: #fdfdfd;}</style>
+
+/* ======================
+    CUSTOMISATIONS - Change Link Color
+==================  */
+<style>.row-block a { color: #2f9a41; }.row-block a:not(.button):hover { border-color: #2f9a41; }</style>
+
+/* ======================
+    CUSTOMISATIONS - Change Join button to green
+==================  */
+<style>.navigation ul li.join a{background: #2f9a41;}</style>
+
+/* ======================
+    CUSTOMISATIONS - Change Form button to green
+==================  */
+<style>.container .gform_wrapper input[type="submit"].gform_button { background: #2f9a41; }.container .gform_wrapper input[type="submit"].gform_button:hover { background: #35AE49; }</style>
+
+/* ======================
+    CUSTOMISATIONS - Table wrap Css
+==================  */
+<style>.table-wrap tr:nth-child(odd) td {background: #f1f1f2 !important;}.table-wrap tr td {border: 2px white solid !important;background: #E6E7E8 !important;}.table-wrap th {background: #5B5B5C !important;color: white !important;}</style>
+
+/* ======================
+    CUSTOMISATIONS - Change SUb heading to upper case
+==================  */
+<style>section.intro h3 {width: 80%;text-transform: uppercase;}</style>
+
+/* ======================
+    CUSTOMISATIONS - Add banner height if its too small
+==================  */
+<style>.intro-content.header-text-light {padding-top: 150px; /*padding-bottom: 135px;*/}</style>
+
+/* ======================
+    CUSTOMISATIONS -Change green join button to orange
+==================  */
+<style>.navigation ul li.join.green a{background: #f0ae3b;} .navigation ul li.join.green a:hover {background: #f2b853;}</style>
+
+/* ======================
+    CUSTOMISATIONS -CTA Block style edits
+==================  */
+<style>.item .inner .content .button-hollow{display:none;}section.row-cta-blocks .item .content{font-size: 14px;} section.row-cta-blocks .item .content h5 {font-size: 16px;margin-bottom: 20px;}section.row-cta-blocks {padding-top: 0;}</style>

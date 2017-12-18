@@ -49,6 +49,26 @@
 a.anchor { display: block; position: relative; top: -50px; visibility: hidden; }
 </style>
 
+/* ======================
+	CUSTOMISATIONS - INTRO TEXT / BANNER INSERT MIN. HEIGHT 
+	USE BY PAGE ID:;
+	BLOCK: ;
+==================  */
 <style>
 .intro-content.header-text-light {padding-top: 150px;}section.intro.no-video{min-height:320px;}
+</style>
+
+/* ======================
+	CUSTOMISATIONS - INTRO TEXT / BANNER INSERT MIN. HEIGHT 
+	USE BY PAGE ID:;
+	BLOCK: ;
+==================  */
+<style>
+.item .inner .content .button-hollow{display:none;}
+section.row-cta-blocks .item .content{font-size: 14px;}
+section.row-cta-blocks .item .content h5 {font-size: 16px;margin-bottom: 20px;}
+section.row-cta-blocks {padding-top: 0;}
+section.row-cta-blocks .item .content{padding-bottom:0;
+.inline-buttons{text-align:center;}
+.inline-buttons a{display: inline-block;}
 </style>

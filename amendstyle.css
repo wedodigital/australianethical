@@ -75,6 +75,8 @@ section.row-cta-blocks .item .content{padding-bottom:0;
 
 <style>
 @media screen and (max-width : 768px) {
+section.row-cta-blocks .item {width: 100%;}
 .row-people .person .person-photo, .row-people .person .person-details {width: 100%;}
+body { word-wrap: break-word; }
 }
 </style>

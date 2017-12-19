@@ -72,3 +72,9 @@ section.row-cta-blocks .item .content{padding-bottom:0;
 .inline-buttons{text-align:center;}
 .inline-buttons a{display: inline-block;}
 </style>
+
+<style>
+@media screen and (max-width : 768px) {
+.row-people .person .person-photo, .row-people .person .person-details {width: 100%;}
+}
+</style>

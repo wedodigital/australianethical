@@ -39,7 +39,7 @@ button-primary green
 	USE BY PAGE ID: 8455,8512
 	BLOCK: 2,2;
 ==================  */
-<style>.inline-buttons a{display: inline-block;}</style>
+<style>.inline-buttons a{display: inline-block;margin-bottom: 20px;}</style>
 
 
 /* ======================
@@ -104,3 +104,7 @@ button-primary green
     CUSTOMISATIONS -CTA Block style edits
 ==================  */
 <style>.item .inner .content .button-hollow{display:none;}section.row-cta-blocks .item .content{font-size: 14px;} section.row-cta-blocks .item .content h5 {font-size: 16px;margin-bottom: 20px;}section.row-cta-blocks {padding-top: 0;}section.row-cta-blocks .item .content{padding-bottom: 0;}</style>
+
+<style>.button-primary.green:last-of-type {margin-right: 0;display: inline-block;}</style>
+
+style="max-width:100px;"

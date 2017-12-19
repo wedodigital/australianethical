@@ -88,7 +88,7 @@ button-primary green
 /* ======================
     CUSTOMISATIONS - Change SUb heading to upper case
 ==================  */
-<style>section.intro h3 {width: 80%;text-transform: uppercase;}</style>
+<style>section.intro h3 {width: 80%;text-transform: uppercase; text-shadow: 1px 1px 8px #000; }</style>
 
 /* ======================
     CUSTOMISATIONS - Add banner height if its too small
@@ -103,4 +103,4 @@ button-primary green
 /* ======================
     CUSTOMISATIONS -CTA Block style edits
 ==================  */
-<style>.item .inner .content .button-hollow{display:none;}section.row-cta-blocks .item .content{font-size: 14px;} section.row-cta-blocks .item .content h5 {font-size: 16px;margin-bottom: 20px;}section.row-cta-blocks {padding-top: 0;}</style>
+<style>.item .inner .content .button-hollow{display:none;}section.row-cta-blocks .item .content{font-size: 14px;} section.row-cta-blocks .item .content h5 {font-size: 16px;margin-bottom: 20px;}section.row-cta-blocks {padding-top: 0;}section.row-cta-blocks .item .content{padding-bottom: 0;}</style>
